@@ -1,7 +1,5 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-
-  margin-top: 40px;
+  padding-top: 30px;
 }
