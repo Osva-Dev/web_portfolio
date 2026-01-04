@@ -1,0 +1,32 @@
+.intro {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.intro__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.intro__info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.intro__name {
+  font-size: 70px;
+}
+
+.intro__rol {
+  font-size: 40px;
+}
+
+.intro__text {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: normal;
+}
