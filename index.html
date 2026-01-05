@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Osvaldo Ochoa</title>
     <link rel="stylesheet" href="pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
@@ -41,21 +47,37 @@
         </section>
         <section class="work">
           <h2 class="work__title">My Works</h2>
-          <div class="work__project">
-            <h3 class="work__name">Around de USA</h3>
-            <img class="work__image" src="" alt="Around the USA" />
-            <p class="work__description">
-              Aplicación web orientada a la aplicación práctica de desarrollo
-              frontend, mediante la integración de una API de TripleTen. El
-              proyecto implementa lógica de programación, manipulación del DOM y
-              gestión de datos, asegurando un flujo de interacción eficiente
-              acorde a los requerimientos funcionales. La aplicación simula un
-              perfil de red social, donde los usuarios pueden publicar lugares
-              visitados y compartir visualmente sus recorridos alrededor del
-              mundo.
-            </p>
-            <p class="work__repository"></p>
-            <img class="work__image" src="" alt="" />
+          <div class="work__card">
+            <div class="work__info">
+              <h3 class="work__name">Around de U.S.</h3>
+              <p class="work__description">
+                Aplicación web orientada a la aplicación práctica de desarrollo
+                frontend, mediante la integración de una API de TripleTen.
+              </p>
+              <p class="work__description">
+                El proyecto implementa lógica de programación, manipulación del
+                DOM y gestión de datos, asegurando un flujo de interacción
+                eficiente acorde a los requerimientos funcionales. La aplicación
+                simula un perfil de red social, donde los usuarios pueden
+                publicar lugares visitados y compartir visualmente sus
+                recorridos alrededor del mundo.
+              </p>
+              <div class="work__technologies">
+                <img
+                  class="work__icons"
+                  src="images/html.png"
+                  alt="HTML Logo"
+                />
+                <img class="work__icons" src="images/css.png" alt="CSS Logo" />
+                <img class="work__icons" src="images/js.png" alt="JS Logo" />
+                <img class="work__icons" src="images/git.png" alt="Git Logo" />
+              </div>
+            </div>
+            <img
+              class="work__image"
+              src="images/around-the-usa.png"
+              alt="Around the USA"
+            />
           </div>
         </section>
         <section class="technologies"></section>
