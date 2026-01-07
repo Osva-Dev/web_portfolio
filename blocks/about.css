@@ -3,7 +3,7 @@
 }
 
 .about__card {
-  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   margin-top: 50px;
