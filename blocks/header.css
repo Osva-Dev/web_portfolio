@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  border-bottom: 1px solid #ccc; /* color y grosor de la línea */
+  background-color: black;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
+  top: 0;
+  position: sticky;
+  z-index: 1000;
 }
 
 .header__links {
