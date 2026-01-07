@@ -1,11 +1,9 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
-}
-
-.header {
-  max-width: 100%;
+  padding-top: 50px;
+  border-bottom: 1px solid #ccc; /* color y grosor de la línea */
+  padding-bottom: 30px;
 }
 
 .header__links {
