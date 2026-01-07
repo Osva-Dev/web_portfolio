@@ -7,18 +7,31 @@
   font-size: 50px;
 }
 
-.about__container {
+.about__card {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
+  background-color: #9b9b9b;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #161616;
+  border: 1px solid #2a2a2a;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about__text {
 }
 
 .about__paragraph {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
-  margin-right: 120px;
+  margin-right: 60px;
+  margin-bottom: 20px;
 }
 
 .about__photo {
-  width: 700px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
+  border-radius: 8px;
 }
