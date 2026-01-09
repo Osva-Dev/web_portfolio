@@ -16,14 +16,17 @@
   justify-content: flex-end;
   gap: 30px;
   margin: 0;
-  color: white;
   list-style: none;
 }
 
 .header__item {
   font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   transition: opacity 0.2s ease;
+}
+
+.header__item:hover {
+  color: #9a9a9a;
 }
