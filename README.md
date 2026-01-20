@@ -1,9 +1,9 @@
-## Osvaldo Ochoa – Web Developer Portfolio
+# Osvaldo Ochoa – Web Developer Portfolio
 
 Este repositorio contiene la primera versión de mi portafolio web personal, desarrollado con el objetivo de presentar mis proyectos, habilidades técnicas y metodología de trabajo como Web Developer Jr.
 El proyecto se encuentra en constante actualización, tanto a nivel visual como técnico, conforme avanzo en mi formación y experiencia profesional.
 
-# Descripción del proyecto
+## Descripción del proyecto
 
 El portafolio está diseñado como una landing page personal, donde se integran las siguientes secciones:
 
@@ -14,7 +14,7 @@ El portafolio está diseñado como una landing page personal, donde se integran 
 - About Me: perfil profesional y enfoque de crecimiento
 - Footer: enlaces de contacto y redes profesionales
 
-## Tecnologías utilizadas
+#### Tecnologías utilizadas
 
 Este proyecto fue desarrollado utilizando:
 
@@ -24,12 +24,12 @@ Este proyecto fue desarrollado utilizando:
 - Google Fonts (Roboto) – tipografía
 - Git & GitHub – control de versiones y despliegue
 
-# Estado del proyecto
+## Estado del proyecto
 
 - Versión actual: v1.0
 - Estado: En desarrollo activo
 
-# Próximas mejoras planeadas:
+## Próximas mejoras planeadas:
 
 - Optimización visual y de layout
 - Mejoras en accesibilidad
@@ -37,16 +37,16 @@ Este proyecto fue desarrollado utilizando:
 - Posible migración futura a React
 - Nuevos proyectos en la sección My Works
 
-# Demo
+## Demo
 
 - Portafolio en línea:
   [https://osva-dev.github.io/web_portfolio/](https://osva-dev.github.io/web_portfolio/)
 
-# Autor
+## Autor
 
 Osvaldo Ochoa
 Web Developer Jr
 
-GitHub: https://github.com/Osva-Dev
-LinkedIn: https://www.linkedin.com/in/osvaldo-ochoa
-Email: osvadev30@gmail.com
+- GitHub: https://github.com/Osva-Dev
+- LinkedIn: https://www.linkedin.com/in/osvaldo-ochoa
+- Email: osvadev30@gmail.com
