@@ -6,7 +6,7 @@
   max-width: 1200px;
   font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #ccc; /* color y grosor de la línea */
-  padding-bottom: 60px; /* separación entre línea y contenido */
+  padding-bottom: 80px; /* separación entre línea y contenido */
 }
 
 .work__title {
@@ -25,7 +25,9 @@
   border-radius: 8px;
   background-color: #161616;
   border: 1px solid #2a2a2a;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .work__top {
