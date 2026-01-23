@@ -100,4 +100,16 @@
 }
 
 .skill__workflow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  background-color: #3f3f3f;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
 }
