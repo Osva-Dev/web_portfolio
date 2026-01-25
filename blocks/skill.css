@@ -113,3 +113,7 @@
   text-align: center;
   color: #ffffff;
 }
+
+.skill__tecnologies:hover {
+  transform: translateY(-8px);
+}
