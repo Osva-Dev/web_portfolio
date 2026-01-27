@@ -116,4 +116,10 @@
 
 .skill__tecnologies:hover {
   transform: translateY(-8px);
+  cursor: pointer;
+}
+
+.skill__workflow:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
 }
