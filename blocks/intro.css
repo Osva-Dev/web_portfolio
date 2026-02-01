@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  border-bottom: 1px solid #ccc; /* color y grosor de la línea */
-  padding-bottom: 120px; /* separación entre línea y contenido */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 120px;
   margin-bottom: 30px;
 }
 
@@ -32,4 +32,20 @@
   font-size: 25px;
   line-height: 1.5;
   font-weight: normal;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1110px) {
+  .intro__image {
+    width: 250px;
+    height: 250px;
+  }
+  .intro__name {
+    font-size: 50px;
+  }
+  .intro__rol {
+    font-size: 30px;
+  }
+  .intro__text {
+    font-size: 22px;
+  }
 }
