@@ -5,8 +5,8 @@
   margin-top: 20px;
   max-width: 1200px;
   font-family: "Roboto", sans-serif;
-  border-bottom: 1px solid #ccc; /* color y grosor de la línea */
-  padding-bottom: 80px; /* separación entre línea y contenido */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 80px;
 }
 
 .work__title {
@@ -88,4 +88,39 @@
 .work__icon:hover {
   transform: translateY(-4px);
   cursor: pointer;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1110px) {
+  .work__card {
+    max-width: 1000px;
+  }
+
+  .work__top {
+    gap: 10px;
+  }
+
+  .work__name {
+    font-size: 22px;
+  }
+
+  .work__link {
+    width: 26px;
+    height: 26px;
+  }
+
+  .work__screenshot {
+    width: 480px;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 4px;
+  }
+
+  .work__description {
+    font-size: 15px;
+  }
+
+  .work__icon {
+    width: 40px;
+    height: 40px;
+  }
 }
