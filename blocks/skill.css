@@ -85,7 +85,7 @@
 .skill__container-workflow {
   display: flex;
   flex-direction: column;
-  max-width: 550px;
+  width: 550px;
   margin-top: 50px;
   padding: 30px;
   border-radius: 8px;

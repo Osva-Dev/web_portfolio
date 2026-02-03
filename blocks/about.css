@@ -30,3 +30,13 @@
   height: 400px;
   border-radius: 8px;
 }
+
+@media screen and (min-width: 990px) and (max-width: 1110px) {
+  .about__paragraph {
+    font-size: 14px;
+  }
+  .about__photo {
+    width: 300px;
+    height: 300px;
+  }
+}
