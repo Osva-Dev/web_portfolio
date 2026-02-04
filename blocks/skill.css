@@ -123,3 +123,19 @@
   transform: translateY(-8px);
   cursor: pointer;
 }
+
+@media screen and (min-width: 990px) and (max-width: 1110px) {
+  .skill__title {
+    font-size: 25px;
+  }
+  .skill__subtitle {
+    font-size: 16px;
+  }
+  .skill__logo {
+    width: 45px;
+    height: 45px;
+  }
+  .skill__workflow {
+    padding: 12px 20px;
+  }
+}
