@@ -30,3 +30,12 @@
 .header__item:hover {
   color: #9a9a9a;
 }
+
+@media screen and (min-width: 990px) and (max-width: 1110px) {
+  .header__item {
+    font-size: 18px;
+  }
+  .header__links {
+    gap: 28px;
+  }
+}
