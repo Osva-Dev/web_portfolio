@@ -4,10 +4,9 @@
 }
 
 .skill__name {
-  font-size: 50px;
+  font-size: 30px;
   margin: 0;
-  padding-top: 40px;
-  margin-top: 25px;
+  margin-left: 1px;
 }
 
 .skill__sections {
@@ -40,9 +39,10 @@
 }
 
 .skill__title {
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
-  margin-left: 1px;
+  padding-top: 40px;
+  margin-top: 25px;
 }
 
 .skill__subtitle {
@@ -125,12 +125,12 @@
 }
 
 @media screen and (min-width: 990px) and (max-width: 1110px) {
-  .skill__name {
+  .skill__title {
     font-size: 40px;
   }
-}
-.skill__title {
-  font-size: 25px;
+  .skill__name {
+    font-size: 25px;
+  }
 }
 .skill__subtitle {
   font-size: 16px;
