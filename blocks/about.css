@@ -28,7 +28,7 @@
 .about__photo {
   width: 400px;
   height: 400px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 @media screen and (min-width: 990px) and (max-width: 1110px) {
@@ -41,5 +41,27 @@
   .about__photo {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 990px) {
+  .about__card {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about__paragraph {
+    font-size: 16px;
+    text-align: center;
+  }
+  .about__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    object-fit: cover;
+    border: 2px solid #2a2a2a;
+    box-shadow:
+      0 10px 30px rgba(0, 0, 0, 0.6),
+      0 0 0 1px rgba(255, 255, 255, 0.05);
   }
 }
