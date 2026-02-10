@@ -52,3 +52,22 @@
     font-size: 20px;
   }
 }
+
+@media screen and (min-width: 800px) and (max-width: 990px) {
+  .footer__logos {
+    margin-top: 10px;
+    gap: 50px;
+  }
+
+  .footer__logo {
+    min-width: 50px;
+    height: 50px;
+  }
+  .footer__email {
+    font-size: 15px;
+  }
+  .footer__copyright {
+    margin-top: 25px;
+    font-size: 25px;
+  }
+}
