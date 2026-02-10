@@ -55,19 +55,24 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .intro__image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   .intro__name {
     text-align: center;
+    font-size: 40px;
   }
   .intro__rol {
     text-align: center;
+    font-size: 25px;
   }
   .intro__text {
     text-align: center;
+    font-size: 18px;
+
+    width: 600px;
   }
 }
