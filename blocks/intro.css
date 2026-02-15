@@ -61,9 +61,13 @@
     width: 200px;
     height: 200px;
   }
+  .intro__content {
+    margin-top: 10px;
+  }
   .intro__name {
     text-align: center;
     font-size: 40px;
+    margin: 0;
   }
   .intro__rol {
     text-align: center;
