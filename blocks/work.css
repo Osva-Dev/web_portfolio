@@ -132,17 +132,7 @@
 @media screen and (min-width: 800px) and (max-width: 990px) {
   .work__card {
     max-width: 1200px;
-    display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    background-color: #9b9b9b;
-    padding: 30px;
-    border-radius: 8px;
-    background-color: #161616;
-    border: 1px solid #2a2a2a;
-    transition:
-      background-color 0.3s ease,
-      transform 0.3s ease;
   }
   .work__technologies {
     display: flex;
@@ -150,9 +140,25 @@
     gap: 25px;
   }
   .work__screenshot {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 800px) {
+  .work__card {
+    max-width: 1200px;
+    flex-direction: column;
+  }
+  .work__technologies {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 35px;
+  }
+  .work__screenshot {
+    width: 500px;
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
