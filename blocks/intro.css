@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 990px) {
+@media screen and (min-width: 576px) and (max-width: 990px) {
   .intro {
     display: flex;
     align-items: center;
@@ -75,39 +75,7 @@
   }
   .intro__text {
     text-align: center;
-    font-size: 24px;
-    width: 600px;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 800px) {
-  .intro {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 60px;
-  }
-  .intro__image {
-    width: 250px;
-    height: 250px;
-  }
-  .intro__content {
-    margin-top: 10px;
-  }
-  .intro__name {
-    text-align: center;
-    font-size: 35px;
-    margin: 0;
-  }
-  .intro__rol {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 25px;
-  }
-  .intro__text {
-    text-align: center;
     font-size: 20px;
-    margin-top: 25px;
     width: 600px;
   }
 }
